@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git branch: 'main', url: 'https://github.com/Suman2895/R_F_Jenkin.git'
+                git branch: 'main', url: 'https://github.com/Suman2895/Guvi-Task-20.git'
             }
         }
         stage('Install Requirements') {
